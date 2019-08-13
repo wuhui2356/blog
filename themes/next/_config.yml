@@ -613,9 +613,9 @@ comments:
   storage: true
   # Modify icons and texts for any style, here are some examples
   nav:
-    disqus: disqus
-    facebook_comments_plugin: <i class="fa fa-facebook-official" aria-hidden="true"></i> facebook
-    gitalk: Load Gitalk
+    #disqus: disqus
+    #facebook_comments_plugin: <i class="fa fa-facebook-official" aria-hidden="true"></i> facebook
+    #gitalk: Load Gitalk
 
 # Disqus
 disqus:
@@ -658,7 +658,7 @@ valine:
   avatar: mm  # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
-  language: zh-CN # Language, available values: en, zh-cn
+  language: zh-cn # Language, available values: en, zh-cn
   visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
 
