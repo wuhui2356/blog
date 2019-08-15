@@ -7,6 +7,7 @@ tags:
   - GRUB
   - Linux
   - GRUB2
+description: 简单来说GRUB就是电脑开机过后运行的第一个程序，它负责加载操作系统内核并且将当前系统的控制权移交给操作系统内核。
 ---
 
 ## 1. 什么是GRUB
