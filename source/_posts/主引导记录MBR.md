@@ -31,3 +31,7 @@ description: 主引导记录（Master Boot Record，缩写：MBR），又叫做�
 
 ## 未完待续
   
+
+### 参考文档
+  * [https://wiki.osdev.org/MBR_(x86)](https://wiki.osdev.org/MBR_(x86))
+  * [https://en.wikipedia.org/wiki/Master_boot_record](https://en.wikipedia.org/wiki/Master_boot_record)
