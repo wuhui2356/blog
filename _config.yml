@@ -80,4 +80,4 @@ theme: next
 deploy:
   type: git
   repo: git@gitee.com:silverlaw/Blog.git
-  branch: master
+  branch: deploy
