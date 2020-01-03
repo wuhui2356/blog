@@ -2,7 +2,7 @@
 title: 主引导记录MBR
 date: 2019-08-14 15:38:26
 categories:
-  - linux
+  - Linux
 tags:
  - MBR
  - Linux

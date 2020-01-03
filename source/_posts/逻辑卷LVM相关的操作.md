@@ -2,10 +2,10 @@
 title: 逻辑卷LVM相关操作
 date: 2019-08-15 09:30:30
 categories:
-  - linux
+  - Linux
 tags:
   - LVM
-  - linux
+  - Linux
 description: 逻辑卷是将几个磁盘分区或者块设备组织起来形成的一个大的扩展分区,该扩展分区不能直接用，需要将其划分成逻辑卷（lv）才能使用，lv可以格式化成不同的文件系统，挂载后直接使用。
 ---
 

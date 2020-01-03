@@ -2,7 +2,7 @@
 title: syslog协议
 date: 2019-08-15 17:38:00
 categories:
-  - linux
+  - Linux
 tags:
   - syslog
   - linux

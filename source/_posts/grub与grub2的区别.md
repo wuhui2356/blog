@@ -2,7 +2,7 @@
 title: GRUB与GRUB2的区别
 date: 2019-08-14 15:48:43
 categories:
-  - linux
+  - Linux
 tags:
   - GRUB
   - Linux
