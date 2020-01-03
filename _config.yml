@@ -80,4 +80,4 @@ theme: next
 deploy:
   type: git
   repo: git@e.coding.net:silverlaw/blog.git
-  branch: deploy
+  branch: master
