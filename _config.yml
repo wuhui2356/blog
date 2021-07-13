@@ -79,5 +79,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@192.168.1.220:51001/wuhui2356/blog.git
+  repo: git@192.168.1.220/wuhui2356/blog.git
   branch: master
