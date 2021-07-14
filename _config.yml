@@ -79,5 +79,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@e.coding.net:silverlaw/blog.git
+  repo: git@wuhui2356.synology.me:51001/wuhui2356/blog.git
   branch: master
