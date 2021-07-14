@@ -16,5 +16,4 @@ pages:
   only:
   - developer
   tags:
-  - C7
   - linux
