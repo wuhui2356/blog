@@ -6,12 +6,14 @@ pages:
     - node_modules/
 
   script:
-  - npm install hexo-cli -g
+  - npm install hexo-cli -g 
   - npm install hexo-generator-search --save
-  - npm install
-  - hexo deploy
+  - npm install 
+  - hexo generate --deploy
   artifacts:
     paths:
     - public
   only:
-  - master
+  - developer
+  tags:
+  - C7

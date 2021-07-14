@@ -2,7 +2,7 @@
 title: syslog协议
 date: 2019-08-15 17:38:00
 categories:
-  - linux
+  - Linux
 tags:
   - syslog
   - linux
@@ -11,11 +11,12 @@ tags:
 description: syslog协议属于一种主从式协议，通常被用于信息系统管理及信息安全审核。虽然它有不少缺陷，但仍获得相当多的设备及各种平台的接收端支持。因此syslog能被用来将来自许多不同类型系统的日志记录集成到集中的存储库中。
 ---
 
-## 1. 简介
+## 简介
   * `syslog`协议属于一种主从式协议，通常被用于信息系统管理及信息安全审核。虽然它有不少缺陷，但仍获得相当多的设备及各种平台的接收端支持。因此`syslog`能被用来将来自许多不同类型系统的日志记录集成到集中的存储库中。
 <!-- more -->  
 
-## 2. 协议内容
+## 协议内容
+
   * `syslog`格式为一个长字符串，整个数据报分为三个部分：`PRI`、`HEADER`、`MSG`
     * `PRI`:  只能为3、4、5个字符，并且以小于符号开始，以大于符号结束，中间为一个1到3位的数字
     * `HEADER`: 由`TimeStamp`与`HostName`组成。`HEADER`部分紧跟`PRI`，中间没有空格。`TimeStamp`与`HostName`之间间隔一个空格。`HostName`后面紧跟一个空格。
@@ -34,15 +35,16 @@ description: syslog协议属于一种主从式协议，通常被用于信息系�
 <xxx>Mmm dd hh:mm:ss hostname tag[pid]: xxxxxxxxx
 ```
 
-## 3. rsyslog服务器配置
+## rsyslog服务器配置
 
-### 3.1 安装`syslog`服务
+### 安装`syslog`服务
 
 ```
 sudo yum install rsyslog -y
 ```
 
-### 3.2 修改配置文件
+###  修改配置文件
+
 ```
 $ModLoad imudp
 $UDPServerRun 514
@@ -55,10 +57,10 @@ $template RemoteLogs,"/var/log/%HOSTNAME%/%PROGRAMNAME%.log" *
 & ~
 ```
 
-### 3.3 启动`rsyslog`服务生效
+###  启动`rsyslog`服务生效
 
 ```
 systemctl restart rsyslog
 ```
 
-## 4. 参考文献
+## 参考文献
